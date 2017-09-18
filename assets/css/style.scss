@@ -1,0 +1,45 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header h1, header h2 {
+  width: 100%;
+}
+.location {
+  margin-bottom: 0.4em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 26px;
+  font-weight: normal;
+  color: #9ddcff;
+}
+.contact {
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
+  text-align: right;
+}
+body {
+  color: #000;
+}
+td {
+  text-align: left;
+}
+#main-content {
+  width: 530px;
+}
+aside#sidebar {
+  width: 360px;
+}
+#map {
+  width: 360px;
+  height: 270px;
+}
+.sidebar_headline {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 28px;
+  color: #0070c0;
+  text-align: right;
+}

@@ -1,0 +1,23 @@
+<div id="map">hoge</div>
+<script>
+  function initMap() {
+    var latlng = new google.maps.LatLng(34.764626, 137.767860);
+    var mapOptions = {
+      center: latlng,
+      zoom: 14,
+    }
+    var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+    var marker = new google.maps.Marker({
+      position: latlng,
+      map: map
+    });
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrIvZXVz9EwjTnVQy4DLXnGqCNv_Z56C4&callback=initMap">
+</script>
+
+<div class="sidebar_headline">
+  無料体験 随時受付
+</div>
+
+<img src="assets/image.jpg" width="100%">
