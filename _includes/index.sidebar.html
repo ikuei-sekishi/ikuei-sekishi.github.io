@@ -1,7 +1,13 @@
-<div id="map">hoge</div>
+<div class="address">
+静岡県浜松市東区積志町1202番地<br />
+TEL 053-434-4360
+</div>
+
+<div id="map">
 <script>
+<!--
   function initMap() {
-    var latlng = new google.maps.LatLng(34.764626, 137.767860);
+    var latlng = new google.maps.LatLng(34.764610, 137.767850);
     var mapOptions = {
       center: latlng,
       zoom: 14,
@@ -12,12 +18,19 @@
       map: map
     });
   }
+//-->
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrIvZXVz9EwjTnVQy4DLXnGqCNv_Z56C4&callback=initMap">
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrIvZXVz9EwjTnVQy4DLXnGqCNv_Z56C4&amp;language=ja&amp;region=JP&amp;callback=initMap">
 </script>
+<noscript>
+<A href="https://www.google.com/maps/dir/?api=1&amp;destination=34.764610,137.767850">
+  <img width="360" height="270" src="https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyCrIvZXVz9EwjTnVQy4DLXnGqCNv_Z56C4&amp;language=ja&amp;region=JP&amp;size=360x270&amp;markers=%7C34.764610,137.767850&amp;zoom=14&amp;scale=2" alt="Map" />
+</A>
+</noscript>
+</div>
 
 <div class="sidebar_headline">
   無料体験 随時受付
 </div>
 
-<img src="assets/image.jpg" width="100%">
+<img src="assets/image.jpg" width="680" height="400">
